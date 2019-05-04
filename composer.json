@@ -1,0 +1,27 @@
+{
+  "name" : "jci/task-scheduler",
+  "version" : "0.1",
+  "require" : {
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "php" : ">=7.1",
+    "phpunit/phpunit": "*"
+  },
+  "repositories" : [
+    {
+      "type" : "composer",
+      "url" : "https://packagist.org/"
+    }
+  ],
+  "autoload" : {
+    "psr-4": {
+      "JCI\\": "src"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4": {
+      "JCI\\Tests\\": "Tests"
+    }
+  }
+}
