@@ -10,4 +10,4 @@ From the root folder run the following commands:
 
 `php ./public/index.php --route=run_daily_scheduled_tasks`
 
-**Note: Composer must must installed globally!**
+**Note: Composer must be installed globally!**
